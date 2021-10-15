@@ -46,7 +46,7 @@ int add_pokemon(int id, char *name, double weight, double height){
 
     FILE* f = fopen("./pokedex.csv", "a");
 
-    fprintf(f,"\n %d,%s,%lf,%lf\n",id,name,weight,height);
+    fprintf(f,"%d,%s,%lf,%lf\n",id,name,weight,height);
     fclose(f);
 
 
@@ -56,7 +56,7 @@ return EXIT_SUCCESS;
  
 int show_pokemon(int pos){
     Pokemon p = pokemons[pos];
-
+    
     printf("id: %d \n", pokemon_id(p));
     printf("name: %s \n", pokemon_name(p));
     printf("weight: %lf \n", pokemon_weight(p));

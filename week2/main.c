@@ -30,9 +30,9 @@ Delete the Pokemon with position in the pokedex = posiiton\n\
 extern int errno;
  
 void usage(char *progname, int opt);
-int add_pokemon();
-int show_pokemon();
-int remove_pokemon();
+//int add_pokemon();
+//int show_pokemon();
+//int remove_pokemon();
  
 int main(int argc, char *argv[]) {
 int opt;
@@ -50,7 +50,7 @@ exit(EXIT_FAILURE);
 }
 break;
 case 's':
-if (show_pokemon(atoi(argv[2]) != EXIT_SUCCESS)) {
+if (show_pokemon(atoi(argv[2])) != EXIT_SUCCESS) {
 perror(ERR_SHOW_POKEMON);
 exit(EXIT_FAILURE);
 }
