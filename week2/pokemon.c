@@ -43,7 +43,7 @@ Pokemon new_pokemon(int pokemon_id, char *name, double height,double weight)
 {  
     Pokemon pokemon = malloc(sizeof(struct pokemon));
     pokemon->pokemon_id = pokemon_id;
-    pokemon->name = name;
+    pokemon->name = strdup(name);
     pokemon->height = height;
     pokemon->weight = weight;
 
