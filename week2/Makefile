@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-c
-SOURCES=main.c pokedex.c pokemon.c
+SOURCES=main.c pokedex.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=pokemon_manage_service
 
