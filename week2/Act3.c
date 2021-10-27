@@ -5,11 +5,11 @@
 int main (int argc, char * argv[]){
 int *a,i,j,tmp,n;
 char msg[250];
-    sprintf(msg," a[%d]=%d: \n", i, *(a+i) );
+    sprintf(msg, "Introdueix un element de l'array: \n");
     write(1,msg,strlen(msg));
     scanf("%d", &n);
 for(i=0; i<n; i++){ 
-    sprintf(msg, "Introdueix un element de l'array: \n");
+    sprintf(msg," a[%d]=%d: \n", i, *(a+i) );
     write(1, msg, strlen(msg));
     scanf("%d", a+i);
 }

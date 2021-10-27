@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include <unistd.h>
  
 long add(long* n1, long* n2){
     long result= *n1 + *n2;
