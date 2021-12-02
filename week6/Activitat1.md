@@ -1,0 +1,2 @@
+En el primer cas ens enscriu el missatge 1 sola vegada ja que s'obre el fitxer dins el fork(), pe tant, és mostra 1 vegada per pantalla. 
+En el segon cas, obrim el fixer fora el fork(), el que comporta que tant pare com fill tenen el fitxer obert, per tant el missatge s'escriu 2 vegades. 
