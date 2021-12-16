@@ -1,0 +1,2 @@
+Aquest programa crea N processos i mentres els va creannt s'espera uns certs segons, despres arriba el pare i mira l'estat dels processos si aquest han acabat be el afegeix a complete sino a fail.
+ 
