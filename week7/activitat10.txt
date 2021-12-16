@@ -1,0 +1,2 @@
+Quan afegim un número 0 davant de qualsevol altre ens tracta el número com si fos un octal, per tant, no dona bé la suma. 
+Solució: Treure el 0 o afegir la quantitat que li falta a la suma en cas del programa anterior. 

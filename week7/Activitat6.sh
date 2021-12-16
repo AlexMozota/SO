@@ -4,16 +4,18 @@ check_proc(){
 
 N=$1
 
-if [ N = 0 ]
+if [ "$N"  ]
 
 then
-echo "$$"
+echo "[$N] $(date)"
+
 else
-echo "$N"
+echo "[$$] $(date)"
+
 fi
 
 }
 
-check_proc
+check_proc 
 
 check_proc "1"
